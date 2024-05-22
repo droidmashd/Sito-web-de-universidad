@@ -1,237 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Universidad de Benjamin</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title> Pruebas con jquery</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Universidad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Facultades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Noticias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Foro</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              opciones
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Plataforma</a></li>
-              <li><a class="dropdown-item" href="#">Ayuda</a></li>
-              <li><a class="dropdown-item" href="#">informaciones</a></li>
-              <li><a class="dropdown-item" href="#">Alumnos</a></li>
-            </ul>
-          </li>
-        </ul>
-
-      </div>
-      <form class="d-flex justify-content-end buscador-principal" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success boton-superior" type="submit">Search</button>
-    </div>
-  </nav>
-
-  <header class="container-fluid">
-    <h1 class="h2"> Universidad Benjamin Tecnologica</h1>
-    <div>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Benjamin_Franklin_University_-_School_of_Accountancy.JPG"
-        class="img-fluid Universidad_Benjamin" alt="Universidad de Benjamin">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, officia. Quam nostrum dignissimos officia ad
-        tenetur blanditiis porro animi unde? Maxime numquam ad nihil? Sapiente accusamus eum cum officia facilis.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore reiciendis optio dolorem consequatur earum
-        modi fugit a sed consectetur perferendis itaque ratione voluptas nobis autem cum, impedit est vero. Aliquam?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas accusantium est iusto consequuntur cumque
-        excepturi! Voluptates, obcaecati voluptatibus. Asperiores dicta, omnis labore distinctio reiciendis dolorum
-        nostrum hic minus? Deserunt.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore voluptates atque quod officiis maxime, magni
-        quibusdam nemo laborum eum. Vel incidunt accusantium similique, fugit ad saepe porro dignissimos voluptatum
-        explicabo?
-      </p>
-
-    </div>
-  </header>
-  <article>
-    <section>
-      <h1>Noticias</h1>
-      <hr>
-      <div class="tarjetas d-flex flex-row justify-content-around">
-        <div class="card" style="width: 18rem;">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" role="img"
-            aria-label="Marcador de posición: Cap de imagen" focusable="false" preserveAspectRatio="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Marcador de posición</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <image xlink:href="https://cubenjaminfranklin.com/assets/img/logo-escuela-benjamin-franklin2.png"
-              width="100%" height="100%" />
-          </svg>
-          <div class="card-body">
-            <h5 class="card-title">Título de la tarjeta</h5>
-            <p class="card-text">Un texto de ejemplo rápido para desarrollar el título de la tarjeta y constituir la
-              mayor
-              parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary">Ve a algún lado</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" role="img"
-            aria-label="Marcador de posición: Cap de imagen" focusable="false" preserveAspectRatio="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Marcador de posición</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <image xlink:href="https://cubenjaminfranklin.com/assets/img/logo-escuela-benjamin-franklin2.png"
-              width="100%" height="100%" />
-          </svg>
-          <div class="card-body">
-            <h5 class="card-title">Título de la tarjeta</h5>
-            <p class="card-text">Un texto de ejemplo rápido para desarrollar el título de la tarjeta y constituir la
-              mayor
-              parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary">Ve a algún lado</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" role="img"
-            aria-label="Marcador de posición: Cap de imagen" focusable="false" preserveAspectRatio="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Marcador de posición</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <image xlink:href="https://cubenjaminfranklin.com/assets/img/logo-escuela-benjamin-franklin2.png"
-              width="100%" height="100%" />
-          </svg>
-          <div class="card-body">
-            <h5 class="card-title">Título de la tarjeta</h5>
-            <p class="card-text">Un texto de ejemplo rápido para desarrollar el título de la tarjeta y constituir la
-              mayor
-              parte del contenido de la tarjeta.</p>
-            <a href="#" class="btn btn-primary">Ve a algún lado</a>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    </div>
-
-    </section>
-  </article>
-  <article class="d-flex flex-row justify-content-center">
-    <section class="carrusel ">
-      <h1 class="experiencias "> Experiencias</h1>
-      <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Diapositiva 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Diapositiva 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-            aria-label="Diapositiva 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block mx-auto rounded-circle border border-secondary"
-              width="150" height="150" role="img" aria-label="Marcador de posición: Primera diapositiva"
-              focusable="false" xmlns="http://www.w3.org/2000/svg">
-              <title>Marcador de posición</title>
-              <rect width="100%" height="100%" fill="#f5f5f5"></rect>
-              <image xlink:href="https://cubenjaminfranklin.com/assets/img/logo-escuela-benjamin-franklin2.png"
-                width="150" height="150" />
-            </svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Primera etiqueta de diapositiva</h5>
-              <p>Algún contenido de marcador de posición representativo para la primera diapositiva.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" role="img"
-              aria-label="Marcador de posición: Segunda diapositiva" focusable="false"
-              preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-              <title>Marcador de posición</title>
-              <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#bbb" dy=".3em">Segunda
-                diapositiva</text>
-            </svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Etiqueta de la segunda diapositiva</h5>
-              <p>Algún contenido de marcador de posición representativo para la segunda diapositiva.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" role="img"
-              aria-label="Marcador de posición: Tercera diapositiva" focusable="false"
-              preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-              <title>Marcador de posición</title>
-              <rect width="100%" height="100%" fill="#e5e5e5"></rect><text x="50%" y="50%" fill="#999" dy=".3em">Tercera
-                diapositiva</text>
-            </svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Etiqueta de la tercera diapositiva</h5>
-              <p>Algún contenido de marcador de posición representativo para la tercera diapositiva.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </section>
-  </article>
-  <footer>
-
-    <h1> Sobre mi</h3>
-      <hr>
-      <h2 class="d-flex justify-content-center"> Quien soy</h2>
-      <div class="divyo"><img class="object-fit-cover border rounded yo"
-          src="https://i.ibb.co/hYds0nc/Whats-App-Image-2024-02-16-at-1-25-09-AM.jpg">
-      </div>
-      <p> Me presento, soy Benjamin
-        Heredia. Estudiante de primer semestre de ingieneria de sistemas de la utepsa,
-        programador autodidactico y
-        futuro ethical hacker. <br>
-        Me gusta programar, manejar base de datos y auditar sistemas o redes. Tengo 18 años, programo desde los 15
-        años, actualmente 18 años.
-        mis redes sociales:
-      <div class="d-flex justify-content-around"> <a href="https://www.facebook.com/benjamin.herediaruiz"> <img
-            src="https://www.facebook.com/images/fb_icon_325x325.png"> </a> <a
-          href="https://www.facebook.com/benjamin.herediaruiz"> <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg">
-        </a> <a href="https://www.facebook.com/benjamin.herediaruiz"> <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png">
-        </a> <a href="https://www.facebook.com/benjamin.herediaruiz"> <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
-        </a></div>
-      </p>
-  </footer>
-
+    <p id="benja" class="madremia">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias amet architecto
+        omnis dicta deserunt, optio
+        deleniti ipsum id modi nam officia at rem, eos ad pariatur? Laudantium quibusdam quam maxime!</p>
+    <button class="ocultar"> Ocultar texto</button>
+    <button id="mostrar"> Mostrar texto</button>
 
 
 </body>
+<input />
+
+<div class="contenedor">
+    <button class="desvan">Desvanecer</button>
+    <p class="primero" id="primer"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto
+        recusandae
+        suscipit eum nemo
+        eos culpa aliquam. Aspernatur quibusdam ut nihil, nobis necessitatibus, deleniti expedita mollitia nam
+        accusamus officia repudiandae!</p>
+    <p class="segundo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto recusandae
+        suscipit eum nemo
+        eos culpa aliquam. Aspernatur quibusdam ut nihil, nobis necessitatibus, deleniti expedita mollitia nam
+        accusamus officia repudiandae!</p>
+    <p class="tercero"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci architecto recusandae
+        suscipit eum nemo
+        eos culpa aliquam. Aspernatur quibusdam ut nihil, nobis necessitatibus, deleniti expedita mollitia nam
+        accusamus officia repudiandae!</p>
+</div>
+
+<button class="seleccionar">Cambiar texto</button>
+<input id="nombre" type="text" />
+<input id="enviar" type="submit">
+<script src="index.js"></script>
 
 </html>
